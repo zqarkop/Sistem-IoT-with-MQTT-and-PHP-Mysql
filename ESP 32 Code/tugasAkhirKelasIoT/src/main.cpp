@@ -7,9 +7,8 @@ https://github.com/zqarkop/Sistem-IoT-with-MQTT-and-PHP-Mysql
   Potensiometer
   DHT22
   LED
+  Relay optocoupler
   Servo Motor
-
-WEBSITE USER and Embedded Device(ESP32) <--> MQTT Broker <--> MySql Server
 
  This porject using ESP32 as uC to get data from any sensor and send the data to MQTT broker (shiftr.io)
  MQTT Broker transmit the data to MySql Server via API JSON and MySql server store that data as data history
