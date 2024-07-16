@@ -5,7 +5,7 @@ This porject using ESP32 as uC to get data from any sensor and send the data to 
 MQTT Broker transmit the data to MySql Server via Node-Red and store that data as data history <br>
 The Server also hosting web server (Apache2) to monitoring and controling the IoT System
 
-## Instalation
+## Installation
 ### Server Broker Mosquitto
 1. Install mosquitto on your linux server
 2. Open mosquitto.conf
