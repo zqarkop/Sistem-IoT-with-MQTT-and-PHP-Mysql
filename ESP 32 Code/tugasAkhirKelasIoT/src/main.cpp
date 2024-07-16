@@ -35,7 +35,7 @@ Servo myServo;
 const char ssid[] = "Your WiFi SSID";
 const char pass[] = "Your Password SSID";
 const char serial_number_esp32[] = "Your Serial Number ESP32";
-const char servernameBroker[] = "YourServerBroker.com";
+const char servernameBroker[] = "YourIPServerBroker";
 const char usernameBroker[] = "YourUserNameServerBroker";
 const char passwordBroker[] = "YourPasswordServerBroker";
 
