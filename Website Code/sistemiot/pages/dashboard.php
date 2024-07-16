@@ -145,13 +145,13 @@ $result_dashboard = mysqli_query($conn, $sql_dashboard);
   
   <script>
         const clientId = 'userWebsite_' + Math.random().toString(16).substr(2, 8);
-        const host = "wss://serverbelajariot.cloud.shiftr.io:443";
+        const host = "ws://YOUR IP SERVER BROKER:9001";
 
         const option = {
             keepalive: 60,
             clientId: clientId,
-            username: "serverbelajariot",
-            password: "inipasswordtokennya",
+            username: "YOUR USERNAME SERVER BROKER",
+            password: "YOUR PASSWORD SERVER BROKER",
             protocolId: "MQTT",
             protocolVersion: 4,
             clean: false,
